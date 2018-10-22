@@ -7,29 +7,33 @@ h1 {
   font-size: 40px;
   font-family: helvetica neue;
   font-weight: lighter;
+  margin-left: 50px;
 }
 .Item {
   color: white;
   font-family: helvetica neue;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: lighter;
   line-height: 1.5;
+  margin-left: 100px;
+  margin-right: 50px;
 }
 .Random {
   color: white;
   font-family: helvetica neue;
   font-size: 40px;
   font-weight: lighter;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  text-align: center;
 }
 .Challenges {
   color: white;
   font-family: helvetica neue;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: lighter;
   line-height: 1.5;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .ProgressBar {
-width: 100px;
+/*  width: 50%;*/
 }

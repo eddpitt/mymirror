@@ -63,7 +63,6 @@ class App extends Component {
         <Grid container columns={2} stackable>
         <Grid.Column>
         <h1>Naughty things to avoid</h1>
-        
         </Grid.Column>
         </Grid>
       </div>
