@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Grid, List, Progress, Divider, Checkbox} from 'semantic-ui-react'
+import Clock from "./Clock.js"
 import './App.css';
+
 class App extends Component {
 
   buildProgressBar(activityName, activityProgress) {
@@ -57,8 +59,10 @@ class App extends Component {
           </Grid>
         </div>
         <div className="middleColumn  Column"> 
+        a poopy butt
         </div>
         <div className="rightColumn  Column"> 
+        <Clock />
         <Divider />
         </div>
       </div> 
