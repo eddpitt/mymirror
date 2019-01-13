@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, List, Progress, Divider, Checkbox} from 'semantic-ui-react'
 import Clock from "./Clock.js"
+import Weather from "./Weather.js"
 import './App.css';
 
 class App extends Component {
@@ -25,9 +26,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="leftColumn Column">
-          <Grid container columns={1} stackable>
-            <Grid.Column>
-              <Divider />
+         <Clock /> 
+            <Divider />
               <h1>To do this week</h1>
               <div className="header">
                 {this.buildToDo('Sniff some socks')}
@@ -38,10 +38,6 @@ class App extends Component {
                 {this.buildToDo('Write a song')}
               </div>
             <Divider />
-            <div className="Random">
-              <label> Random act of kindness <Checkbox toggle/> </label>
-            </div>
-            <Divider />
             <h1>Challenges this week</h1>
             <div className="Challenges">
               <List>
@@ -49,21 +45,16 @@ class App extends Component {
               {this.buildProgressBar('Music',20)}
               </List>
             </div>
-            </Grid.Column>
-          </Grid>
           <Divider />
-          <Grid container columns={2} stackable>
-            <Grid.Column>
               <h1>Naughty things to avoid</h1>
-            </Grid.Column>
-          </Grid>
         </div>
         <div className="middleColumn  Column"> 
-        a poopy butt
+          <div className="Random">
+            <label> Random act of kindness <Checkbox toggle/> </label>
+          </div>
         </div>
         <div className="rightColumn  Column"> 
-        <Clock />
-        <Divider />
+          <Weather />
         </div>
       </div> 
     );

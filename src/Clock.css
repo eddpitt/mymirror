@@ -4,24 +4,24 @@
 	display: inline-block;
 }
 
-
 .Time {
 	font-size: 80px;
 	font-family: helvetica neue;
-	display: inline-block;
-	padding: 40px 40px 25px;
+/*	display: inline-block;*/
+	text-align: center;
+	padding: 0 40px 0;
 }
 
 .Colon {
 	display: inline-block;
-	font-family: helvetica;
+	font-family: helvetica neue;
 	font-size: 60px;
-	padding: 0 -30px 0 0;
+	padding: 45px 10px 20px 10px;
 }
 
 .Date {
-	font-size: 20px;
+	font-size: 23px;
 	font-family: helvetica neue;
-	display: inline-block;
-	padding: 0 42px;
+/*	display: inline-block;*/
+	text-align: center;
 }
